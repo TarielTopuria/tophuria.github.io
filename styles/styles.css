@@ -443,6 +443,10 @@
     .navbar ul{
         margin: 0.5rem;
     }
+      
+    #home {
+    height: 100vh;
+    }
   }
 
   @media only screen and (max-width: 950px) {
@@ -468,5 +472,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+     
+    #home {
+    height: 100vh;
     }
   }
